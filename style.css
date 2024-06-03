@@ -1,0 +1,104 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20%;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex-basis: 50%;
+    display: inline-flex;
+    border: 2px solid #333;
+    padding: 15%;
+    align-items: center;
+}
+
+.sidebar {
+    flex-basis: 25%;
+    border: 2px solid #333;
+    padding: 15%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: dimgrey;
+    color: white;
+    padding: 10px, 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5%;
+    margin-right: 10%;
+}
+
+.login-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+
+.ninja-info {
+    width: 200%;
+    margin-bottom: 10%;
+    margin: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.like-btn {
+    border: 1px solid #ccc;
+    background-color: darkgoldenrod;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+.highlight {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.sidebar-content {
+    width: 200%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.centered {
+    margin-bottom: 15%;
+}
+
+.add-definition-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
